@@ -1,0 +1,29 @@
+<pre>
+
+@article{Oh2017,
+abstract = {Given sparse multi-dimensional data (e.g., (user, movie, time; rating) for movie recommendations), how can we discover latent concepts/relations and
+predict missing values? Tucker factorization has been widely used to solve such
+problems with multi-dimensional data, which are modeled as tensors. However,
+most Tucker factorization algorithms regard and estimate missing entries as
+zeros, which triggers a highly inaccurate decomposition. Moreover, few methods
+focusing on an accuracy exhibit limited scalability since they require huge
+memory and heavy computational costs while updating factor matrices. In this
+paper, we propose P-Tucker, a scalable Tucker factorization method for sparse
+tensors. P-Tucker performs an alternating least squares with a gradient-based
+update rule in a fully parallel way, which significantly reduces memory
+requirements for updating factor matrices. Furthermore, we offer two variants
+of P-Tucker: a caching algorithm P-Tucker-CACHE and an approximation algorithm P-Tucker-APPROX, both of which accelerate the update process. Experimental results show that P-Tucker exhibits 1.7-14.1x speed-up and 1.4-4.8x less error compared to the state-of-the-art. In addition, P-Tucker scales near linearly with the number of non-zeros in a tensor and number of threads. Thanks to P-Tucker, we successfully discover hidden concepts and relations in a
+large-scale real-world tensor, while existing methods cannot reveal latent
+features due to their limited scalability or low accuracy.}
+archivePrefix = {arXiv},
+arxivId = {1710.02261},
+author = {Sejoon Oh, Namyong Park, Lee Sael, and U Kang},
+eprint = {1710.02261},
+journal = {arxiv},
+month = {oct},
+title = {{Scalable Tucker Factorization for Sparse Tensors - Algorithms and Discoveries}},
+url = {http://arxiv.org/abs/1710.02261},
+year = {2017}
+}
+
+</pre>

@@ -1,0 +1,213 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!--html lang="ko"-->
+<HTML><HEAD><TITLE>BIML2017_M2</TITLE>
+<META name="description" content="Computer Science, SUNY Korea CSE305 CSE532 Database ."> 
+<META name="keywords" content="Sael Lee, Lee Sael, SUNY Korea, State University of New York Korea, Stony Brook University, Tutorial, BIML 2017, Tensor, Deep Learning for Biodata Analysis , Computer Science">
+<!--
+<meta name="verify-v1" content="G7qlYoXMQctkUxwJYts06trEj0KWKFyet69ACfB53QI=" >
+-->
+<META http-equiv=Content-Type content="text/html; charset=utf-8">
+<META NAME=robots content=index,nofollow>
+
+<STYLE TYPE="text/css">
+    
+    html, body	{	height: 100%; }
+	
+	body
+	{
+		margin: 10px;
+		padding: 0px;
+		background: #FFF;
+		font-family: 'Open Sans', sans-serif, 'Hanna';
+		font-size: 0.6em;
+		font-weight: 200;
+		color: #2d2d2d;
+	}
+	
+	
+	h1, h2, h3, h4
+	{
+		margin: 0;
+		padding: 0;
+		font-weight: 60%0;
+		color: #454445;
+	}
+	
+	h3
+	{
+		padding: 0.3em 0em 0.3em 0em;
+		letter-spacing: 0.10em;
+		text-transform: uppercase;
+		font-size: 1.0em;
+	}
+
+	h4
+    {
+		font-size: 1.0em;
+    }
+
+	p, ol, ul	{	margin-top: 0; padding: 0; }
+	
+	p {	line-height: 130%; font-size: 0.9em;  }
+    
+    ul.style1
+	{
+		margin: 0;
+		padding: 0em 0em 0em 0em;
+		overflow: hidden;
+		list-style: none;
+		color: #6c6c6c;
+	}
+	
+	ul.style1 li
+	{
+		overflow: hidden;
+		display: block;
+		padding: 1em 0em;
+		border-top: 1px solid #D1CFCE;
+	}
+	
+	ul.style1 li:first-child
+	{
+		padding-top: 0;
+		border-top: none;
+	}
+	
+	ul.style1 .image-left
+	{
+		margin-bottom: 0;
+	}
+
+</STYLE>
+
+<script type="text/javascript">
+onload = function(){
+    document.getElementById("lastModified").innerHTML = "Last updated:" + document.lastModified.split(" ")[0];
+}
+</script>
+
+</HEAD>
+
+
+
+<BODY><A name=top></A>
+<!-- BEGIN HEADER TABLE -->
+<table  width="100%" class="yr_header">
+    <tbody>
+        <tr><td>
+            <FONT size=2>
+            <div class="network-links; height:30px;">
+                <div style="float:left; padding:4px;"></div>
+                <a href="http://www.sunykorea.ac.kr"><img src="../../image/SUNYK.jpg" alt="SUNYK" height=30></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;				
+                <a href="http://www.stonybrook.edu"><img src="../../image/SBU.jpg" alt="SBU" height=25></a>&nbsp; 
+                <div style="float:right; padding:10px; margin-right:4px;" id='link-top'>
+                <a href="http://www.cbbl.sunykorea.ac.kr">BioData Mining Lab</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+		        <a href="http://cs.sunykorea.ac.kr/">SUNYK CS</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+                <a href="http://www.cs.sunysb.edu/">SBU CS</a>&nbsp;
+                </div>
+        </div>
+            </FONT>
+	     </td></tr>
+</tbody></table>
+
+
+<table width="100%" height="20pt"><tbody>
+	     <!-- banner --> 
+         <tr><td align="right" bgcolor=#00539B><font size=2 color="#E6E6E6" > <span id="lastModified"></span>&nbsp;&nbsp;&nbsp;&nbsp;</font></td></tr>
+    </tbody>
+</table>
+
+
+<!--banner -->
+<br><br>
+<table width="100%" height="70pt"><tbody>
+    <tr><td align="center">
+        <FONT size=6 color="black">딥러닝의 바이오헬스케어 응용</FONT> <br>
+        <FONT size=5 color="black"> <br>
+            Tutorial in <a href="http://www.kiise.or.kr/conference/kcc/2017/">KCC2017</a></FONT><br> 
+        <FONT size=5><a href="../index.html"> Sael Lee</a></FONT>
+        </td></tr>
+    </tbody>
+</table>
+<!-- END HEADER TABLE -->
+       
+<!-- BEGIN BODY CONTENT -->
+<table height="400" class="yr_body" id="content">
+    <tbody><tr>
+ 	<td class="main-content" id="content-both">            				            				
+    <div style='width:100%;'>
+	
+    <!-- COUSRE INFORMATION -->
+    <hr/>
+	<h2 style='margin-top:10; margin-bottom:10; color:#000'>Abstract</h2>
+    <hr/>	
+    <div class="center">
+	<p style='margin-left:20px; margin-top:10px;'>
+	  
+본 강의에서는 최근 핵심 인공지능 기술로 각광받고 있는 딥러닝과, 딥러닝의 헬스케어 응용에 대해 설명한다. 본 강의는 총 3시간으로 이루어지며 먼저 딥러닝 기초 이론(2시간)을 설명 후 바이오헬스케어 응용 사례들을 집중 분석(1시간)한다.  
+이론에서는 바이오헬스케어에 적용된 딥러닝 기법들에 대한 방법론적 특징들을 설명하고 이어 딥러닝의 ‘설명가능성’ (interpretability)에 대한 연구들을 살펴본다.   
+바이오헬스케어 응용 사례에서는 바이오헬스케어 분야의 여러 문제들을 풀기 위해 어떠한 방법으로 딥러닝이 적용되었는지를 사례별로 집중 분석한다. 또한 각각의 사례들에서 바이오헬스케어에서 중요시 되는 결과의 ‘설명가능성’ (interpretability)을 어떻게 딥러닝을 통해 구현하였는지를 살펴본다. 응용 사례들은 크게 Genome Sequence 분석 사례와 Bio-signal 분석 사례들로 구분된다.
+	  
+    <!-- COUSRE MATERIAL -->
+    <hr/>
+    <h2 style='color:#000'>Course Content</h2>
+	<hr/>
+	<br><br>
+
+	<div class="center">
+
+ 	
+   <table border="1">
+
+    <th style="width:5%;">Hours</td> 
+    <th style="width:30%;">Title</td>
+    <th style="width:50;">Contents</td>
+    <th style="">Slides</td>	
+	<tr>
+
+    <td style="width:5%;">1</td> 
+    <td style="width:30%;">Deep Learning Basics</td>	
+    <td style="width:50%;">Bio-healthcare에 적용된 딥러닝 모델의 종류 및 기술적 틍징 설명</td>
+    <td rowspan="3"><a href="KCC2017Summer_Tutorial_SaelLee.pdf">Slides</a></td><tr>
+    
+    <td style="width:5%;">2</td> 	
+    <td style="width:30%;">White-box 딥러닝 모델링 기법</td>
+    <td style="width:50%;">딥러닝의 ‘설명가능성’ (interpretability)에 대한 설명</td>	<tr>
+
+    <td style="width:5%;">3</td>
+    <td style="width:30%;">Bio-healthcare 응용</td>
+    <td style="width:50%;">Genome Sequence 및 Bio-signal 분석 사례들 집중 분석</td> <tr>
+  
+</table>
+        
+        
+    <p style='margin-left:20px; margin-top:10px;'>
+	</p>
+
+<br><br>
+	</div>
+	<!-- COURSE MATERIAL END -->
+
+<!-- END BODY CONTENT -->
+
+<table width="100%" height="20pt" bgcolor=#99CCFF ><tbody>
+        <tr><td align="left" bgcolor=#00539B>
+        <FONT size=1 color="white">
+            <div style="float:left; padding:5px;"></div>
+ <b>S</b>tate <b>U</b>niversity of <b>N</b>ew <b>Y</b>ork, <b>K</b>orea (SUNY Korea),     
+        119 Songdo Moonhwa-Ro, Yeonsu-Gu, Incheon,  
+        Republic of Korea 406-840
+        </FONT>
+        </td></tr>
+    </tbody>
+</table>
+
+</BODY></HTML>
+
+
+
+
+
+
+
+

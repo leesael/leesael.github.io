@@ -1,0 +1,230 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!--html lang="ko"-->
+<HTML><HEAD><TITLE>BIML2017_M2</TITLE>
+<META name="description" content="Computer Science, SUNY Korea CSE305 CSE532 Database ."> 
+<META name="keywords" content="Sael Lee, Lee Sael, SUNY Korea, State University of New York Korea, Stony Brook University, Tutorial, BIML 2017, Tensor, Deep Learning for Biodata Analysis , Computer Science">
+<!--
+<meta name="verify-v1" content="G7qlYoXMQctkUxwJYts06trEj0KWKFyet69ACfB53QI=" >
+-->
+<META http-equiv=Content-Type content="text/html; charset=utf-8">
+<META NAME=robots content=index,nofollow>
+
+<STYLE TYPE="text/css">
+    
+    html, body	{	height: 100%; }
+	
+	body
+	{
+		margin: 10px;
+		padding: 0px;
+		background: #FFF;
+		font-family: 'Open Sans', sans-serif, 'Hanna';
+		font-size: 0.6em;
+		font-weight: 200;
+		color: #2d2d2d;
+	}
+	
+	
+	h1, h2, h3, h4
+	{
+		margin: 0;
+		padding: 0;
+		font-weight: 60%0;
+		color: #454445;
+	}
+	
+	h3
+	{
+		padding: 0.3em 0em 0.3em 0em;
+		letter-spacing: 0.10em;
+		text-transform: uppercase;
+		font-size: 1.0em;
+	}
+
+	h4
+    {
+		font-size: 1.0em;
+    }
+
+	p, ol, ul	{	margin-top: 0; padding: 0; }
+	
+	p {	line-height: 130%; font-size: 0.9em;  }
+    
+    ul.style1
+	{
+		margin: 0;
+		padding: 0em 0em 0em 0em;
+		overflow: hidden;
+		list-style: none;
+		color: #6c6c6c;
+	}
+	
+	ul.style1 li
+	{
+		overflow: hidden;
+		display: block;
+		padding: 1em 0em;
+		border-top: 1px solid #D1CFCE;
+	}
+	
+	ul.style1 li:first-child
+	{
+		padding-top: 0;
+		border-top: none;
+	}
+	
+	ul.style1 .image-left
+	{
+		margin-bottom: 0;
+	}
+
+</STYLE>
+
+<script type="text/javascript">
+onload = function(){
+    document.getElementById("lastModified").innerHTML = "Last updated:" + document.lastModified.split(" ")[0];
+}
+</script>
+
+</HEAD>
+
+
+
+<BODY><A name=top></A>
+<!-- BEGIN HEADER TABLE -->
+<table  width="100%" class="yr_header">
+    <tbody>
+        <tr><td>
+            <FONT size=2>
+            <div class="network-links; height:30px;">
+                <div style="float:left; padding:4px;"></div>
+                <a href="http://www.sunykorea.ac.kr"><img src="../../image/SUNYK.jpg" alt="SUNYK" height=30></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;				
+                <a href="http://www.stonybrook.edu"><img src="../../image/SBU.jpg" alt="SBU" height=25></a>&nbsp; 
+                <div style="float:right; padding:10px; margin-right:4px;" id='link-top'>
+                <a href="http://www.cbbl.sunykorea.ac.kr">BioData Mining Lab</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+		        <a href="http://cs.sunykorea.ac.kr/">SUNYK CS</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+                <a href="http://www.cs.sunysb.edu/">SBU CS</a>&nbsp;
+                </div>
+        </div>
+            </FONT>
+	     </td></tr>
+</tbody></table>
+
+<!--banner -->
+<br><br>
+<table width="100%" height="70pt"><tbody>
+    <tr><td align="center">
+        <FONT size=6 color="black"> Mining and Learning Bio-Big Data </FONT> <br>
+        <FONT size=5 color="black"> <br>
+            Tutorial M2 in <a href="http://www.ksbi.or.kr/workshop/2017/biml2017_page.html/">BIML2017</a></FONT><br> 
+        <FONT size=5><a href="../index.html"> Sael Lee</a></FONT>
+        </td></tr>
+    </tbody>
+</table>
+
+<table width="100%" height="20pt"><tbody>
+	     <!-- banner --> 
+         <tr><td align="right" bgcolor=#00539B><font size=2 color="#E6E6E6" > <span id="lastModified"></span>&nbsp;&nbsp;&nbsp;&nbsp;</font></td></tr>
+    </tbody>
+</table>
+
+<!-- END HEADER TABLE -->
+       
+<!-- BEGIN BODY CONTENT -->
+<table height="400" class="yr_body" id="content">
+    <tbody><tr>
+ 	<td class="main-content" id="content-both">            				            				
+    <div style='width:100%;'>
+	
+    <!-- COUSRE INFORMATION -->
+    <hr/>
+	<h2 style='margin-top:10; margin-bottom:10; color:#000'>Abstract</h2>
+    <hr/>	
+    <div class="center">
+	<p style='margin-left:20px; margin-top:10px;'>
+바이오 데이터(Bio-data)는 빅데이터(Big Data)의 대표적 예로 빅데이터 속성들 중  Volume (규모), Velocity (생산 속도) 그리고 Variety (다양성) 속성들이 잘 나타난다. 이러한 빅데이터 속성들은 데이터 마이닝(Data Mining) 및 기계학습(Machine Learning)에 다양한 극복해야 할 다양한 문제들(Challenge)을 야기시킨다. 이 강의에서는 첫째로, 바이오 데이터의 빅데이터 속성 중 규모과 다양성에집중하여 Graph Mining 방법들에 대해서 공부하다. 둘째로, 데이터 규모의 증가에 힘입어 급성장하고 있는 Deep Neural Network의이론과 Biodata에의 적용사례를 소개한다.  
+
+	  
+    <!-- COUSRE MATERIAL -->
+    <hr/>
+    <h2 style='color:#000'>Course Content</h2>
+	<hr/>
+	<br><br>
+
+	<div class="center">
+
+ 	
+   <table border="1">
+
+	<th style="width:20%;">Time</td> 
+    <th style="width:60%;">Contents</td> 
+    <th style=""> Slides</td>	
+	<tr>
+
+	<td style="width:20%;"><font> 9:30-10:20am </font></td> 
+    <td style="width:60%;"><font> 
+            Big Data Characteristics in Bioinformatics Data
+    </font></td>	
+	<td style=""><font>Slides not available</font></td><tr>
+    
+    <td style="width:20%;"><font > 10:30-12:30pm</font></td> 	
+    <td style="border:1px solid black;width:60%;"><font>Matrix/Tensor Mining </font>	
+	<td style=""><font > Slides not available </font></td>	<tr>
+
+    <td style="width:20%;"><font> 13:30-14:20pm </font></td>
+    <td style="width:60%;"><font> Deep Neural Network for Bio-Data Analysis </font></td>
+	<td style=""><font><a href="part2-1.pdf">part2-1</a></font></td><tr>
+  
+  
+    <td style="width:20%;"><font> 14:30-15:20pm </font></td>
+    <td style="width:60%;"><font> Convolution Neural Network - Theory </font></td>
+	<td style=""><font><a href="part2-2.pdf">part2-2</a></font></td><tr>
+
+  
+    <td style="width:20%;"><font> 16:30-17:30pm </font></td>
+    <td style="width:60%;"><font> Tensor Flow Tutorial</font></td>
+	<td style=""><font><a href="part2-3.pdf">part2-3</a></font></td><tr>
+  
+  
+	</table>
+        
+        
+    <p style='margin-left:20px; margin-top:10px;'>
+	</p>
+
+<br><br>
+	</div>
+	<!-- COURSE MATERIAL END -->
+
+       
+	<!-- COUSRE SCHEDULE END -->
+<br><br>
+	</div>
+          
+	</td>
+          </tr>
+          </tbody></table>
+
+<!-- END BODY CONTENT -->
+
+<table width="100%" height="20pt" bgcolor=#99CCFF ><tbody>
+        <tr><td align="left" bgcolor=#00539B>
+        <FONT size=1 color="white">
+            <div style="float:left; padding:5px;"></div>
+ <b>S</b>tate <b>U</b>niversity of <b>N</b>ew <b>Y</b>ork, <b>K</b>orea (SUNY Korea),     
+        119 Songdo Moonhwa-Ro, Yeonsu-Gu, Incheon,  
+        Republic of Korea 406-840
+        </FONT>
+        </td></tr>
+    </tbody>
+</table>
+
+</BODY></HTML>
+
+
+
+
+
+
+
+
