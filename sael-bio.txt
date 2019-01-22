@@ -1,3 +1,6 @@
 Sael Lee is a BK Associate Professor in Deptartment of Computer Science and Engineering at Seoul National University. 
-From 2012.9-2018.2 she was an Assistant Professor in Dept. of Computer Science at Stony Brook University Korea. She received her Ph.D. in Computer Science from Purdue University in 2010, and her B.S. in Computer Science from Korea University in 2005. She has published in numerous journals and proceedings using her publication name, "Lee Sael", in the areas of Bioinformatics, Data Mining, and Machine Learning. Her research focuses on development of methods and algorithms for mining and inference of biological data in various types (variety), which are either small or large (volume), with the emphasis on improved explainability (interpretability). She applies the methods to solve various data science problems including precision medicine.
+From 2012.9-2018.2 she was an Assistant Professor in Dept. of Computer Science at Stony Brook University Korea. 
+She received her Ph.D. in Computer Science from Purdue University in 2010, and her B.S. in Computer Science from Korea University in 2005. 
+She has published in numerous journals and proceedings using her publication name, "Lee Sael", 
+in the areas of machine learning for healthcare, tensor analysis/data mining, and bioinformatics. 
 
