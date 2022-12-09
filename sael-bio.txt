@@ -1,6 +1,2 @@
-Sael Lee is currently an Associate Professor in the Department of Software and Computer Engineering and Department of Artificial Intelligence. 
-From 2012.9-2018.2 she was an Assistant Professor in Dept. of Computer Science at Stony Brook University Korea. 
-She received her Ph.D. in Computer Science from Purdue University in 2010, and her B.S. in Computer Science from Korea University in 2005. 
-She has published in major journals and proceedings using her publication name, "Lee Sael", 
-in the areas of machine learning for healthcare, tensor analysis/data mining, and bioinformatics. 
-
+Sael Lee is  currently an Associate Professor in the Dept. of Software and Computer Engineering, Dept. of Artificial Intelligence, and Dept. of Convergence Healthcare Medicine at Ajou University. 
+From 2012.9-2018.2 she was an Assistant Professor in Dept. of Computer Science at Stony Brook University Korea.  She received her Ph.D. in Computer Science from Purdue University in 2010, and her B.S. in Computer Science from Korea University in 2005.  She has published in major journals and proceedings using her publication name, "Lee Sael", in the areas of interpretable machine learning, tensor analysis/data mining, and bioinformatics. 
